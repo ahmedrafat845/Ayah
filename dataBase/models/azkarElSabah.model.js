@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-export const azkarShcema= new mongoose.Schema({
+export const azkarElSabahShcema= new mongoose.Schema({
     title:{
         type:String
     },
@@ -19,4 +19,4 @@ export const azkarShcema= new mongoose.Schema({
         type:Number
     }
 })
-export const azkarModel=mongoose.model("azkar",azkarShcema)
+export const azkarElSabahModel=mongoose.model("azkarElSabah",azkarElSabahShcema)
