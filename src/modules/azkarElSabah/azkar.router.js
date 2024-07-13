@@ -4,9 +4,9 @@ import { addZekr, deleteAzkar, getAllAzkar, updateAzkar } from "./azkar.controll
 
 const azkarElSabahRouter=express.Router()
 
-azkarElSabahRouter.post("/addZekr",addZekr)
-azkarElSabahRouter.get("/getAllAzkar",getAllAzkar)
-azkarElSabahRouter.put("/updateAzkar",updateAzkar)
-azkarElSabahRouter.delete("/deleteAzkar",deleteAzkar)
+azkarElSabahRouter.post("/addZekrElSabah",addZekr)
+azkarElSabahRouter.get("/getAllAzkarElSabah",getAllAzkar)
+azkarElSabahRouter.put("/updateAzkarElSabah",updateAzkar)
+azkarElSabahRouter.delete("/deleteAzkarElSabah",deleteAzkar)
 
 export default azkarElSabahRouter
